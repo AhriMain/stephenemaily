@@ -7,5 +7,5 @@ const PORT = process.env.PORT || 5000
 app.listen(PORT,()=>console.log(`connected to port: ${PORT}`))
 // Route Handlers
 app.get('/',(req,res)=>{
-    res.json({message:'hello'})
+    res.json({message:'karthicks a bitchAss'})
 })
